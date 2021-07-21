@@ -1,6 +1,6 @@
 # Wish Disney
 
-This project was bootstrapped with React.js, React-Router-DOM and Redux.js on the client side and firebase to both host and manage application db
+This project was bootstrapped with React.js, React-Router-DOM and Redux.js on the client side and firebase to both host and manage application database
 
 ## Available Scripts
 
