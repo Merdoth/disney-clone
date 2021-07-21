@@ -1,0 +1,93 @@
+.login__container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+
+.login__content {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 40px;
+  height: 100%;
+}
+
+.login__cta {
+  margin-bottom: 2vw;
+  max-width: 650px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: opacity 0.2s ease-out 0s;
+  width: 100%;
+}
+
+.login__ctaLogo1 {
+  margin-bottom: 12px;
+  max-width: 600px;
+  min-height: 1px;
+  display: block;
+  width: 100%;
+}
+
+.login__btn {
+  font-weight: bold;
+  color: #f9f9f9;
+  background-color: #0063e5;
+  margin-bottom: 12px;
+  width: 100%;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  padding: 16.5px 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login__btn:hover {
+  background-color: #0483ee;
+}
+
+.login__desc {
+  color: hsla(0, 0%, 95.3%, 1);
+  font-size: 11.5px;
+  margin: 0 0 24px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+
+.login__ctaLogo2 {
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  vertical-align: bottom;
+}
+
+.login__img {
+  background-image: url("../../assets/images/login-background.jpg");
+  z-index: -1;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  object-fit: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
